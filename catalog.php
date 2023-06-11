@@ -23,12 +23,13 @@
 					<h3><a href="product.php?id=%s">%s</a></h3>
 					<p>%s₽</p>
 					<input type="hidden" value="%s" name="product_id">
+					<input type="hidden" value="%s" name="year">
 					<input type="hidden" value="%s" name="category">
 				</div>
 				%s
 				%s
 			</div>
-		', $row["path"], $row["product_id"], $row["name"], $row["price"], $row["product_id"], $row["category"],
+		', $row["path"], $row["product_id"], $row["name"], $row["price"], $row["product_id"], $row["year"], $row["category"],
 		($role == "admin") ? '
 			<div class="row">
 				<p><a href="update.php?id='.$row["product_id"].'" class="text-small">Редактировать</a></p>

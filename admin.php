@@ -69,6 +69,9 @@
 			<form enctype="multipart/form-data" action="controllers/add_product.php" method="POST">
 				<input type="text" placeholder="Название" name="name" required>
 				<input type="number" placeholder="Цена" name="price" required>
+				<input type="text" placeholder="Производитель" name="country" required>
+				<input type="number" placeholder="Год выпуска" name="year" required>
+				<input type="text" placeholder="Упаковка" name="model" required>
 				<select name="category" required>
 					<option value selected disabled>Категория</option>
 					<?= $categories ?>

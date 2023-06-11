@@ -25,7 +25,9 @@
 				</div>
 				<div class="text">
 					<h3>Характеристики:</h3>
-					<p>Количество: <b><?= $product["count"] ?></b></p>
+					<p>Производитель: <b><?= $product["country"] ?></b></p>
+					<p>Год выпуска: <b><?= $product["year"] ?></b></p>
+					<p>Упаковка: <b><?= $product["model"] ?></b></p>
 					<hr>
 					<div class="row">
 						<p>Цена:</p>

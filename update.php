@@ -24,6 +24,9 @@
 				<input type="hidden" name="path" value="<?= $product["path"] ?>">
 				<input type="text" placeholder="Название" name="name" value="<?= $product["name"] ?>" required>
 				<input type="number" placeholder="Цена" name="price" value="<?= $product["price"] ?>" required>
+				<input type="text" placeholder="Страна производитель" name="country" value="<?= $product["country"] ?>" required>
+				<input type="number" placeholder="Год выпуска" name="year" value="<?= $product["year"] ?>" required>
+				<input type="text" placeholder="Модель" name="model" value="<?= $product["model"] ?>" required>
 				<select name="category" required>
 					<option value selected disabled>Категория</option>
 					<?= $categories ?>

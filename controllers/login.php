@@ -12,7 +12,7 @@
 			$_SESSION["user_id"] = $user["user_id"];
 			$_SESSION["role"] = $user["role"];
 
-			return header("Location:../cart.php");
+			return header("Location:../index.php");
 		}
 	}
 
