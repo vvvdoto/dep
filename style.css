@@ -9,6 +9,9 @@
 body {
 	font-family: 'Roboto';
 	font-size: 14pt;
+	background: url("images/background.jpg");
+	background-position: center;
+	background-size: cover;
 }
 
 h1,h2,h3,h4,p {
@@ -148,6 +151,7 @@ div.content {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 20px;
+	background: #fff;
 }
 
 div.message {
@@ -156,6 +160,10 @@ div.message {
 	text-align:center;
 	margin: 40px 0;
 }
+.message{
+	background-color: #fff;
+}
+
 .head {
 	border-bottom: solid 2px black;
 	padding: 10px 0;
@@ -327,9 +335,9 @@ select#category {
 	max-width: 30%;
 }
 .presentation {
-	margin: 30 auto;
+	margin: 0 auto;
   background: url('images/3a9a800496951bf0f2c679c2c0f5445d.jpeg') no-repeat;
-  width: 1200px;
+  width: 1150px;
   height: 500px;
   background-size: cover;
   background-position: center center;
