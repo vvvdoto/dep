@@ -50,7 +50,7 @@ hr {
     transition: transform .5s;
 }
 .navigator .link:hover::after {
-	transform-origin: left;
+	
 	transform: scaleX(1);
 }
 img {
@@ -309,7 +309,8 @@ div#slider div.slides div.slide {
 div.slide img {
 	margin-bottom: 10px;
 }
-.slide h3{
+.slide a{
+	color: #000;;
 	text-decoration: none;
 }
 
