@@ -4,4 +4,4 @@
 
 	$connect->query("DELETE FROM `categories` WHERE `category`=".$_POST["category"]);
 
-	return header("Location:../admin?message=Категория удалена");
+	return header("Location:../admin.php?message=Категория удалена");

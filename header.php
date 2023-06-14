@@ -9,7 +9,7 @@
 	$m = '';
 	if(isset($_SESSION["role"])) {
 		$m = '<li><a href="cart.php" class="link">Корзина</a></li>';
-		$m .= ($_SESSION["role"] == "admin") ? '<li><a href="admin" class="link">Заказы</a></li>' : '';
+		$m .= ($_SESSION["role"] == "admin") ? '<li><a href="admin.php" class="link">Заказы</a></li>' : '';
 		$m .= '<li><a href="controllers/logout.php">Выход</a></li>';
 	} else
 		$m = '

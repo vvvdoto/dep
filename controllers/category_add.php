@@ -4,4 +4,4 @@
 
 	$connect->query("INSERT INTO `categories`(`category`) VALUES('".$_POST["category"]."')");
 
-	return header("Location:../admin?message=Категория добавлена");
+	return header("Location:../admin.php?message=Категория добавлена");

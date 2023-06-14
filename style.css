@@ -9,9 +9,9 @@
 body {
 	font-family: 'Roboto';
 	font-size: 14pt;
-	background: url("images/background.jpg");
-	background-position: center;
+	background: url("images/background.jpg");	
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 h1,h2,h3,h4,p {
@@ -159,9 +159,6 @@ div.message {
 	color: gray;
 	text-align:center;
 	margin: 40px 0;
-}
-.message{
-	background-color: #fff;
 }
 
 .head {

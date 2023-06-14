@@ -2,6 +2,7 @@
 require "connect.php";
 ?>
 <?php require "header.php";?>
+<div class="content">
 <div class="head" id="register">Регистрация</div>
 <form action="controllers/register.php" method="POST">
 				<input type="text" placeholder="Имя" name="name"  required>
@@ -16,5 +17,6 @@ require "connect.php";
 					<p>Согласие с правилами регистрации</p>
 				</div>
 				<button>Зарегистрироваться</button>
-			</form>>
+			</form>
+</div>	
 </div>

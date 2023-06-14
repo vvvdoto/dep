@@ -13,7 +13,7 @@
 				<img src="%s" alt="">
 				<div class="row">
 					<h3><a href="product.php?id=%s">%s</a></h3>
-					<p>%s$</p>
+					<p>%s₽</p>
 				</div>
 				<div class="row">
 					<p><a href="controllers/delete_cart.php?id=%s">Убрать</a></p>

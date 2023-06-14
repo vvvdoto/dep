@@ -16,6 +16,7 @@
 ?>
 
 	<main>
+		<div class="upcontent">
 		<div class="content">
 			
 			<div class="head"><?= $product["name"] ?></div>
@@ -27,7 +28,7 @@
 					<h3>Характеристики:</h3>
 					<p>Производитель: <b><?= $product["country"] ?></b></p>
 					<p>Год выпуска: <b><?= $product["year"] ?></b></p>
-					<p>Упаковка: <b><?= $product["model"] ?></b></p>
+					<p>Вид упаковка: <b><?= $product["model"] ?></b></p>
 					<hr>
 					<div class="row">
 						<p>Цена:</p>
@@ -48,6 +49,7 @@
 				</div>
 			</div>
 
+		</div>
 		</div>
 	</main>
 

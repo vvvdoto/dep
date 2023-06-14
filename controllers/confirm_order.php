@@ -3,4 +3,4 @@
 	include "../connect.php";
 
 	$connect->query("UPDATE `orders` SET `status`='Подтверждённый' WHERE `order_id`=".$_POST["id"]);
-	return header("Location:../admin?message=Статус заказа изменёна на \"Подтверждённый\"");
+	return header("Location:../admin.php?message=Статус заказа изменёна на \"Подтверждённый\"");
